@@ -1,0 +1,69 @@
+Starting enum4linux v0.9.1 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Wed Oct  7 14:38:42 2026
+
+[34m =========================================( [0m[32mTarget Information[0m[34m )=========================================
+
+[0mTarget ........... 10.67.188.240
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+[34m ===========================( [0m[32mEnumerating Workgroup/Domain on 10.67.188.240[0m[34m )===========================
+
+[0m[33m
+[+] [0m[32mGot domain/workgroup name: WORKGROUP
+
+[0m
+[34m ===================================( [0m[32mSession Check on 10.67.188.240[0m[34m )===================================
+
+[0m[33m
+[+] [0m[32mServer 10.67.188.240 allows sessions using username '', password ''
+
+[0m
+[34m ================================( [0m[32mGetting domain SID for 10.67.188.240[0m[34m )================================
+
+[0mDomain Name: WORKGROUP
+Domain Sid: (NULL SID)
+[33m
+[+] [0m[32mCan't determine if host is part of domain or part of a workgroup
+
+[0m
+[34m ==================( [0m[32mUsers on 10.67.188.240 via RID cycling (RIDS: 500-550,1000-1050)[0m[34m )==================
+
+[0m[33m
+[I] [0m[36mFound new SID: 
+[0mS-1-22-1
+[33m
+[I] [0m[36mFound new SID: 
+[0mS-1-5-32
+[33m
+[I] [0m[36mFound new SID: 
+[0mS-1-5-32
+[33m
+[I] [0m[36mFound new SID: 
+[0mS-1-5-32
+[33m
+[I] [0m[36mFound new SID: 
+[0mS-1-5-32
+[33m
+[+] [0m[32mEnumerating users using SID S-1-5-32 and logon username '', password ''
+
+[0mS-1-5-32-544 BUILTIN\Administrators (Local Group)
+S-1-5-32-545 BUILTIN\Users (Local Group)
+S-1-5-32-546 BUILTIN\Guests (Local Group)
+S-1-5-32-547 BUILTIN\Power Users (Local Group)
+S-1-5-32-548 BUILTIN\Account Operators (Local Group)
+S-1-5-32-549 BUILTIN\Server Operators (Local Group)
+S-1-5-32-550 BUILTIN\Print Operators (Local Group)
+[33m
+[+] [0m[32mEnumerating users using SID S-1-22-1 and logon username '', password ''
+
+[0mS-1-22-1-1001 Unix User\jan (Local User)
+S-1-22-1-1002 Unix User\ubuntu (Local User)
+[33m
+[+] [0m[32mEnumerating users using SID S-1-5-21-2853212168-2008227510-3551253869 and logon username '', password ''
+
+[0mS-1-5-21-2853212168-2008227510-3551253869-513 BASIC2\None (Domain Group)
+enum4linux complete on Wed Oct  7 15:11:02 2026
+

@@ -1,0 +1,13 @@
+# Nmap 7.99 scan initiated Wed Oct  7 10:25:16 2026 as: /usr/lib/nmap/nmap --privileged -p- --stats-every 30s -oN bitacora/basic_nmap_todos_puertos.txt 10.64.174.176
+Nmap scan report for 10.64.174.176
+Host is up (0.19s latency).
+Not shown: 65529 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+8009/tcp open  ajp13
+8080/tcp open  http-proxy
+
+# Nmap done at Wed Oct  7 11:01:26 2026 -- 1 IP address (1 host up) scanned in 2170.25 seconds
